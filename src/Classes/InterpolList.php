@@ -100,10 +100,10 @@ class InterpolList
 
     /**
      * Return a search result in json form
-     * @return string
+     * @return array
      */
-    public function getResult(): string
+    public function getResult(): array
     {
-        return json_encode($this->result);
+        return $this->result;
     }
 }
